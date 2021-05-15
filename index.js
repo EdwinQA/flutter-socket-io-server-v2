@@ -12,7 +12,7 @@ const app = express();
 const server = require('http').createServer(app);
 module.exports.io = require('socket.io')(server);
 
-require('./Sockets/socket');
+require('./sockets/socket');
 
 
 
