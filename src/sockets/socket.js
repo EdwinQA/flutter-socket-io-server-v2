@@ -1,6 +1,6 @@
 
 
-const { io } = require('../index');
+const { io } = require('../index.js');
 const Bands = require('../models/bands');
 const Band = require('../models/band');
 
